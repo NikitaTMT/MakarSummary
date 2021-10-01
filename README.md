@@ -1,2 +1,2 @@
-# MakarSummary
+# MakarApp
 summary

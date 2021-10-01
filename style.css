@@ -1,0 +1,88 @@
+* {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/47/18/63/4718636d7b0c78040bb5f7b462683b8f.jpg");
+    
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 60px;
+    margin-top: 100px;
+}
+
+.number {
+    width: 150px;
+    height: 130px;
+    border: solid darkgray 4px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    background-color: white;
+
+    font-size: 40px;
+}
+
+.buttons {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+.result {
+    width: 150px;
+    height: 130px;
+    border-radius: 40%;
+    font-size: 40px;
+    text-align: center;
+}
+
+button {
+    width: 250px;
+    height: 130px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: solid darkgray 4px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    transition: background-color 1s linear;
+}
+
+.result {
+    border: solid darkgray 4px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: 	#9ACD32;
+}
+
+.image {
+    width: 150px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+
+/* @media only screen and (max-width: 768px) {
+    .buttons {
+        flex-direction: column;
+    }
+    button {
+        margin-top: 20px;
+    }
+} */
